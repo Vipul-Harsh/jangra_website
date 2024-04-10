@@ -32,10 +32,10 @@ const Home2 = () => {
       <section className='pt-20'>
         <div className='container-fluid '>
           <SectionTitle
-            sectionName={"Team"}
-            sectionTitle={"Architects of Architronix"}
-            sectionDesc={"Where Imagination Takes Flight, and Excellence Blossoms"}
-            button_text={"All Architects"}
+            sectionName={"Our Team"}
+            sectionTitle={"Designers of Excellence"}
+            sectionDesc={"Crafting Inspirational Spaces with Precision and Passion"}
+            button_text={"Meet Our Team"}
             link={"/team"}
           />
         </div>
@@ -56,8 +56,8 @@ const Home2 = () => {
       <section className='pt-20'>
         <div className='container-fluid'>
           <SectionTitle
-            sectionName={"Blog"}
-            sectionTitle={"Design Insights & Inspiration"}
+            sectionName={"Blogs"}
+            sectionTitle={" Design Stories & Insights"}
             sectionDesc={"Unveil the Secrets to Transforming Spaces"}
           />
         </div>

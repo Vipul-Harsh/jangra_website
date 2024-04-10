@@ -11,7 +11,7 @@ const plus_jakarta_sans = Plus_Jakarta_Sans({
 })
 
 export const metadata = {
-  title: "Architronix",
+  title: "Jangra",
   description: "Architronix is a next js and tailwind css website",
   icons: {
     icon: `${favicon.src}`,

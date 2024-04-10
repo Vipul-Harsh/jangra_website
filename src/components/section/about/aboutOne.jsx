@@ -9,22 +9,22 @@ import SectionSidebarImg from '@/components/ui/sectionSidebarImg'
 
 const aboutList = [
     {
-        id: "01",
-        item: "Innovation Beyond Boundaries",
-        item_desc: "We thrive on challenging the norms, infusing each project with fresh, innovative perspectives that defy convention."
+        id: "1",
+        item: "Opulent Living Specialists",
+        item_desc: "Located in Bhiwadi, we transform spaces with innovative solutions, balancing luxury and comfort for busy families."
     },
     {
-        id: "02",
-        item: "Visionaries at Work",
-        item_desc: "We thrive on challenging the norms, infusing each project with fresh, innovative perspectives that defy convention."
+        id: "2",
+        item: "Soulful Interior Mastery",
+        item_desc: "At Jangra, we approach each project with passion, focusing on details to create dynamic and distinctive interiors."
     },
     {
-        id: "03",
-        item: "Awards and Acclaim",
-        item_desc: "We thrive on challenging the norms, infusing each project with fresh, innovative perspectives that defy convention."
-    },
-
+        id: "3",
+        item: "Customizable Design Services",
+        item_desc: "Navigate options wisely with our premier design services, offering luxurious interiors tailored to your budget."
+    }
 ]
+
 const AboutOne = ({ text_muted, bg_muted }) => {
     const { ref, inView, entry } = useInView({
         threshold: 0.00,
@@ -33,12 +33,12 @@ const AboutOne = ({ text_muted, bg_muted }) => {
     return (
         <section className='pt-20'>
             <div className='container-fluid '>
-                <SectionTitle sectionName={"About Us"} sectionTitle={"Foundations of Architronix "} sectionDesc={"Crafting Architectural Masterpieces and Designing Interior Wonders"} text_muted={text_muted} bg_muted={bg_muted} />
-                <div className={cn(`bg-primary xl:mt-[220px] lg:mt-25 md:mt-44 mt-[540px] xl:mb-20 mb-0 ${bg_muted}`)}>
+                <SectionTitle sectionName={"About Us"} sectionTitle={"Discover Jangra's Charm"} sectionDesc={"Crafting Elegance in Every Corner and Designing Dream Interiors"} text_muted={text_muted} bg_muted={bg_muted} />
+                <div className={cn(`bg-primary xl:mt-[220px] lg:mt-25 md:mt-44 mt-[540px] xl:mb-20 mb-0  p-5 ${bg_muted}`)}>
                     <div className='container'>
                         <div className='flex lg:flex-row flex-col items-center gap-[66px]'>
                             <SectionSidebarImg img={about_img} section_name={"about-bg"} className="md:-mt-25 -mt-[470px] -mb-25"/>
-                            <ul className='lg:mt-0 mt-20 lg:pb-0 pb-10'>
+                            <ul className='lg:mt-0 mt-20 lg:pb-0 pb-10 pt-10'>
                                 {
                                     aboutList.map(({ id, item, item_desc }) => {
                                         return (

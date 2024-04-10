@@ -1,8 +1,8 @@
 "use client"
 import Image from 'next/image'
 import Link from 'next/link'
-import hero_2 from "@/assets/images/hero-2.jpg"
-import hero_3 from "@/assets/images/hero-3.jpg"
+import hero_2 from "@/assets/images/newimages/2150831872.jpg"
+import hero_3 from "@/assets/images/newimages/dinig 2 copy.jpg"
 import hero_vector from "@/assets/images/hero-vector-bg.png"
 
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -12,7 +12,7 @@ import 'swiper/css';
 import hero_5 from "@/assets/images/hero-5.jpg"
 import hero_6 from "@/assets/images/hero-6.jpg"
 import hero_7 from "@/assets/images/hero-7.jpg"
-import hero_8 from "@/assets/images/hero-8.jpg"
+import hero_8 from "@/assets/images/newimages/4.jpg"
 import ButtonFill from '@/components/ui/buttons/buttonFill'
 import ButtonOutline from '@/components/ui/buttons/buttonOutline'
 import { useRef } from 'react'
@@ -21,19 +21,19 @@ import RightArrow from '@/assets/icons/rightArrow'
 const bannerData = [
     {
         id: 1,
-        title: "Elegant Design Showcase",
+        title: "Elegance in Every Corner",
         heading: "<span class='text-primary-foreground'> Elegance </span> <span class='outline-text'> Redefined </span>",
         banner_img: hero_8,
     },
     {
         id: 2,
-        title: "Designing Interior Elegance",
+        title: "Crafted Design Elegance",
         heading: "<span class='text-primary-foreground'> Elegance </span> <span class='outline-text'> Redefined </span>",
         banner_img: hero_2,
     },
     {
         id: 3,
-        title: "Crafting Interior Brilliance",
+        title: "Creation Beyond Concept",
         heading: "<span class='text-primary-foreground'> Elegance </span> <span class='outline-text'> Redefined </span>",
         banner_img: hero_3,
     },
@@ -42,27 +42,27 @@ const bannerBottomContent = [
     {
         id: 1,
         banner_img: hero_5,
-        title: "Space Alchemy"
+        title: "Transformative Spaces"
     },
     {
         id: 2,
         banner_img: hero_6,
-        title: "Design Symphony"
+        title: "Harmonious Designs"
     },
     {
         id: 3,
         banner_img: hero_7,
-        title: "Personalized Elegance"
+        title: "Customized Elegance"
     },
-
 ]
+
 const BannerTwo = () => {
     const swiperRef = useRef()
     const pagination = {
         clickable: true,
         el: ".hero-pagination",
         renderBullet: function (index, className) {
-            return `<span class='${className} text-white translate-y-16 opacity-0 absolute h-0 leading-[90%] [font-size:_clamp(60px,10vw,150px)] font-extrabold lg:text-right'>${bannerData[index].title}</span>`;
+            return `<span class='${className} text-white translate-y-16 opacity-0 absolute h-0 leading-[90%] [font-size:_clamp(50px,10vw,150px)] font-extrabold lg:text-right'>${bannerData[index].title}</span>`;
         },
     };
     return (
@@ -77,7 +77,7 @@ const BannerTwo = () => {
                                 <ButtonOutline className={"px-[35px] sm:py-2.5 py-2.5 border-secondary text-secondary-foreground after:bg-secondary hover:text-primary after:left-0"}><span className='text-base'>Who we are</span></ButtonOutline>
                             </Link>
                             <Link href={"/project-archive"} className='lg:mt-10 mt-2 inline-block'>
-                                <ButtonFill className={"px-[35px] sm:py-2.5 py-2.5 after:bg-secondary text-primary-foreground border-secondary hover:text-secondary-foreground"}><span className='text-base'>View Projects</span></ButtonFill>
+                                <ButtonFill className={"px-[35px] sm:py-2.5 py-2.5 after:bg-secondary text-primary-foreground border-secondary hover:text-secondary-foreground"}><span className='text-base'>Our Projects</span></ButtonFill>
                             </Link>
                         </div>
                     </div>

@@ -318,3 +318,24 @@ body {
     max-width: 1320px;
   }
 }
+.butn{
+  background-color: #253B2F;
+  padding: 20px;
+  color: white;
+  border: 1px solid #253B2F;
+  margin-right: -40px;
+  margin-left: 18px;
+}
+.butn:hover{
+  background-color: transparent;
+  color: black;
+  font-weight: 400;
+}
+.butne{
+  background-color: #253B2F;
+  padding: 20px;
+  color: white;
+  border: 1px solid #253B2F;
+  display: flex;
+  
+}

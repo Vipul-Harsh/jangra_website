@@ -5,7 +5,7 @@ import DropDownMenu from './dropDownMenu'
 import MegaMenu from './megaMenu'
 import Logo from '@/assets/icons/logo';
 import Search from '@/assets/icons/search';
-import { menuList } from '@/lib/fackData/menuList';
+import { menuList } from '@/lib/fackData/navBar';
 import Offcanvas from './offCanvas'
 import Cart from './cart'
 import { cn, countCartProductQuantity,  } from '@/lib/utils'
@@ -34,7 +34,7 @@ const BottomNavbar = ({ linkColor }) => {
                     </Link>
                 </div>
                 <nav>
-                    <ul className='flex items-center'>
+                    <ul className='flex items-center '>
                         {
                             menuList.map(({ id, isDropdown, name, path, isMegaMenu }) => {
                                 return (
@@ -60,7 +60,7 @@ const BottomNavbar = ({ linkColor }) => {
                                 )
                             })
                         }
-                        <li className={cn(`other_icon text-primary-foreground px-6 cursor-pointer ${linkColor}`)} onClick={() => setOffcanvaseActive(true)}>
+                        {/* <li className={cn(`other_icon text-primary-foreground px-6 cursor-pointer ${linkColor}`)} onClick={() => setOffcanvaseActive(true)}>
                             <Search height={"24"} width={"24"} />
                         </li>
                         <li className={cn(`other_icon text-primary-foreground pl-6 cursor-pointer flex relative ${linkColor}`)} onClick={() => setCartActive(true)}>
@@ -68,7 +68,10 @@ const BottomNavbar = ({ linkColor }) => {
                             {
                                 products.length ? <span className='font-medium flex items-center justify-center text-secondary-foreground text-sm absolute -top-3 -right-4 w-6 h-6 bg-primary rounded-full'>{countCartProductQuantity(products)}</span> :""
                             }
-                        </li>
+                        </li> */}
+                        <Link href="/contact" className='butn'>
+                            <button>Contact Us</button>
+                        </Link>
                     </ul>
                 </nav>
             </div>

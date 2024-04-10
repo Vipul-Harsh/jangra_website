@@ -1,7 +1,7 @@
-import project_img_1 from "@/assets/images/project-overview-img-1.jpg"
-import project_img_2 from "@/assets/images/project-overview-img-2.jpg"
-import project_img_3 from "@/assets/images/project-overview-img-3.jpg"
-import project_img_4 from "@/assets/images/project-overview-img-4.jpg"
+import project_img_1 from "@/assets/images/newimages/slide1.jpg"
+import project_img_2 from "@/assets/images/newimages/slide2.jpg"
+import project_img_3 from "@/assets/images/newimages/slide3.jpg"
+import project_img_4 from "@/assets/images/newimages/slide4.jpg"
 
 export const projectsData = [
     {

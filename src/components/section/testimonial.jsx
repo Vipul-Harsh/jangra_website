@@ -13,35 +13,35 @@ const testimonialData = [
     {
         id: 1,
         name: "Sarah Johnson",
-        position: "Modern Spaces Inc.",
-        review: "I was truly impressed by the design expertise of Architronix. They turned my home into a stylish haven, and I couldn't be happier!"
+        position: "Lead Designer at Modern Spaces Inc.",
+        review: "Impressed by Jangra's design prowess. They transformed my home into a stylish retreat."
     },
     {
         id: 2,
         name: "John Smith",
-        position: "Smith & Co. Architecture.",
-        review: "Architronix exceeded my expectations. They took my vision and brought it to life, creating a breathtaking design that perfectly complements my"
+        position: "Principal Architect at Smith & Co. Architecture",
+        review: "Jangra brought my vision to life, delivering a design that's both stunning and functional."
     },
     {
         id: 3,
         name: "Emily Roberts",
-        position: "UrbanLiving Interiors",
-        review: "Architronix Interiors transformed my office space into a functional yet aesthetically pleasing environment. Their attention to detail and innovative designs are top-notch"
+        position: "Design Lead at UrbanLiving Interiors",
+        review: "Jangra revamped our office space with precision and innovation. Their designs are truly remarkable."
     },
     {
         id: 4,
         name: "Sarah Johnson",
-        position: "Modern Spaces Inc.",
-        review: "I was truly impressed by the design expertise of Architronix. They turned my home into a stylish haven, and I couldn't be happier!"
+        position: "Lead Designer at Modern Spaces Inc.",
+        review: "Impressed by Jangra's design prowess. They transformed my home into a stylish retreat."
     },
     {
         id: 5,
         name: "John Smith",
-        position: "Smith & Co. Architecture.",
-        review: "Architronix exceeded my expectations. They took my vision and brought it to life, creating a breathtaking design that perfectly complements my"
-    },
+        position: "Principal Architect at Smith & Co. Architecture",
+        review: "Jangra brought my vision to life, delivering a design that's both stunning and functional."
+    }
+];
 
-]
 const Testimonial = ({ text_muted, bg_muted }) => {
     const pagination = {
         clickable: true,
@@ -53,7 +53,7 @@ const Testimonial = ({ text_muted, bg_muted }) => {
             <div className='container-fluid '>
                 <SectionTitle
                     sectionName={"Testimonial"}
-                    sectionTitle={"Client Experiences"}
+                    sectionTitle={"What Our Client Says"}
                     sectionDesc={"Inspiring Stories from Our Clients, Where Dreams Find Their Designers"}
                     bg_muted={bg_muted}
                     text_muted={text_muted}

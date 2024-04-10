@@ -50,8 +50,8 @@ const Footer = () => {
                     </div>
                     <hr className='bg-pritext-primary-foreground' />
                     <div className='py-8 lg:flex justify-between items-center'>
-                        <span className='text-sm text-primary-foreground block'>Made with Love by <Link href={""}>ThemePerch</Link> </span>
-                        <span className='text-sm text-primary-foreground block mt-3 lg:mt-0'>©2024, Architronix, All Rights Reserved</span>
+                        <span className='text-sm text-primary-foreground block'>Made and Managed By <Link href={""}> Rightlabs</Link> </span>
+                        <span className='text-sm text-primary-foreground block mt-3 lg:mt-0'>©2024,Jangra, All Rights Reserved</span>
                     </div>
                 </div>
             </div>

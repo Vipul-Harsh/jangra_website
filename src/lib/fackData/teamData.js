@@ -16,8 +16,8 @@ export const teamData = [
     {
         id: 1,
         img: team_1,
-        name: "Russell Otten",
-        position: "Interior Alchemist",
+        name: "Mr. Gopal Sharma",
+        position: "Founder & Creative Head",
         social_link: [
             {
                 id: 1,
@@ -78,8 +78,8 @@ export const teamData = [
     {
         id: 2,
         img: team_2,
-        name: "Robert Jhonson",
-        position: "Chief Design Orchestrator",
+        name: "Mr. Hare Krishna Sahoo",
+        position: "Accountant",
         social_link: [
             {
                 id: 1,
@@ -140,8 +140,8 @@ export const teamData = [
     {
         id: 3,
         img: team_3,
-        name: "Robert Jhonson",
-        position: "Interior Alchemist",
+        name: "Bharti Sharma",
+        position: "Interior Designer",
         social_link: [
             {
                 id: 1,

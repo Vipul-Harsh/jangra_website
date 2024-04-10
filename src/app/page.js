@@ -1,49 +1,43 @@
-import React from 'react'
 import AboutOne from '@/components/section/about/aboutOne'
-import Gallery from '@/components/section/gallery'
-import BannerOne from '@/components/section/heroes/bannerOne'
-import ServicesSlider from '@/components/section/servicesSlider'
-import VideoPortfolio from '@/components/section/videoPortfolio'
-import ProjectsSlider from '@/components/section/projectsSlider'
-import Testimonial from '@/components/section/testimonial'
-import ShopSlider from '@/components/section/shopSlider'
-import BlogSlider from '@/components/section/blogSlider'
 import Feedback from '@/components/section/feedback'
+import Gallery from '@/components/section/gallery'
+import BannerTwo from '@/components/section/heroes/bannerTwo'
+import ProjectsSlider from '@/components/section/projectsSlider'
+import BlogSlider from '@/components/section/blogSlider'
+import ShopSlider from '@/components/section/shopSlider'
+import ServicesSlider from '@/components/section/servicesSlider'
+import Testimonial from '@/components/section/testimonial'
 import Counter from '@/components/ui/counter'
+import VideoPortfolio from '@/components/section/videoPortfolio'
+import { blogData } from '@/lib/fackData/blogData'
+import { productData } from '@/lib/fackData/productData'
+import { teamData } from '@/lib/fackData/teamData'
 import SectionTitle from '@/components/ui/sectionTitle'
 import TeamCardOne from '@/components/ui/cards/teamCardOne'
-
-import { productData } from '@/lib/fackData/productData'
-import { blogData } from '@/lib/fackData/blogData'
-import { teamData } from '@/lib/fackData/teamData'
 import { cardSlideAnimation } from '@/lib/utils'
-import { bannerOneData } from '@/lib/fackData/bannerOneData'
-import HeaderOne from '@/components/header/headerOne'
+import HeaderTwo from '@/components/header/headerTwo'
 import Footer from '@/components/footer'
-
 export const metadata = {
-  title: "Architronix -- Home-1",
-  description: "Architronix is a next js and tailwind css website",
+  title: "Jangra Interior ",
+  description: "Transforming interiors with innovative design and attention to detail",
 };
-
-const Home1 = () => {
+const Home2 = () => {
   return (
     <>
-      <HeaderOne />
-      <BannerOne data={bannerOneData} />
+    <HeaderTwo/>
+      <BannerTwo />
       <AboutOne />
       <Counter />
       <Gallery />
       <ServicesSlider />
-
       {/* --------- start team section */}
       <section className='pt-20'>
         <div className='container-fluid '>
           <SectionTitle
-            sectionName={"Team"}
-            sectionTitle={"Architects of Architronix"}
-            sectionDesc={"Where Imagination Takes Flight, and Excellence Blossoms"}
-            button_text={"All Architects"}
+            sectionName={"Our Team"}
+            sectionTitle={"Designers of Excellence"}
+            sectionDesc={"Crafting Inspirational Spaces with Precision and Passion"}
+            button_text={"Meet Our Team"}
             link={"/team"}
           />
         </div>
@@ -55,19 +49,17 @@ const Home1 = () => {
           </div>
         </div>
       </section>
-      {/* --------- end team section */}
-
+      {/* --------- start team section */}
       <VideoPortfolio />
       <ProjectsSlider />
       <Testimonial />
       <ShopSlider data={productData.slice(0, 5)} />
-
       {/* -------- blog slider start */}
       <section className='pt-20'>
-        <div className='container-fluid '>
+        <div className='container-fluid'>
           <SectionTitle
-            sectionName={"Blog"}
-            sectionTitle={"Design Insights & Inspiration"}
+            sectionName={"Blogs"}
+            sectionTitle={" Design Stories & Insights"}
             sectionDesc={"Unveil the Secrets to Transforming Spaces"}
           />
         </div>
@@ -76,11 +68,10 @@ const Home1 = () => {
         </div>
       </section>
       {/* -------- blog slider end */}
-
       <Feedback />
-      <Footer />
+      <Footer/>
     </>
   )
 }
 
-export default Home1
+export default Home2

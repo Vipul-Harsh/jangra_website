@@ -27,9 +27,7 @@ const BlogSlider = ({ data, text_muted }) => {
                 1200: {
                     slidesPerView: 3
                 },
-                // 1400: {
-                //     slidesPerView: 3
-                // }
+               
             }}
             pagination={pagination}
             loop={true}

@@ -3,41 +3,26 @@ export const menuList = [
     {
         id: 1,
         name: "Home",
-        path: "#",
+        path: "/home-2",
         isMegaMenu: false,
-        isDropdown: [
-            {
-                id: 1,
-                name: "Home 1",
-                path: "/"
-            },
-            {
-                id: 2,
-                name: "Home 2",
-                path: "/home-2"
-            },
-            {
-                id: 3,
-                name: "Home 3",
-                path: "/home-3"
-            },
-            {
-                id: 4,
-                name: "Home 4",
-                path: "/home-4"
-            },
-
-        ]
+        isDropdown: false,
     },
     {
         id: 2,
+        name: "About Us",
+        path: '/about-us',
+        isMegaMenu: false,
+        isDropdown: false
+    },
+    {
+        id: 3,
         name: "Projects",
         path: '/project-archive',
         isMegaMenu: false,
         isDropdown: false
     },
     {
-        id: 3,
+        id: 4,
         name: "Services",
         path: "#",
         isDropdown: false,
@@ -49,19 +34,19 @@ export const menuList = [
                         id: 1,
                         name: "Residential Design",
                         path: "/service-single",
-                        desc: "Everything from concept to completion"
+                        desc: "Comprehensive residential design solutions tailored to your lifestyle"
                     },
                     {
                         id: 2,
                         name: "Commercial Design",
                         path: "/service-single",
-                        desc: "Focuses on optimizing functionality and aesthetics"
+                        desc: "Innovative commercial design optimizing space and aesthetics"
                     },
                     {
                         id: 3,
-                        name: "Space Planning",
+                        name: "Industrial Design",
                         path: "/service-single",
-                        desc: "Maximize the potential of your space"
+                        desc: "Strategic industrial design maximizing functionality and efficiency"
                     }
                 ]
             },
@@ -70,21 +55,21 @@ export const menuList = [
                 menus: [
                     {
                         id: 4,
-                        name: "Color Consultation",
+                        name: "Renovations & Remodelling",
                         path: "/service-single",
-                        desc: "We help you choose the perfect palette"
+                        desc: "Expert renovation and remodelling services enhancing your space"
                     },
                     {
                         id: 5,
-                        name: "Project Management",
+                        name: "Furniture",
                         path: "/service-single",
-                        desc: "We oversee every detail for a successful project"
+                        desc: "Bespoke furniture design ensuring harmony and elegance"
                     },
                     {
                         id: 6,
-                        name: "Custom Furnishings",
+                        name: "Trunkey Project",
                         path: "/service-single",
-                        desc: "Elevate your space with unique furnishings"
+                        desc: "Comprehensive turnkey solutions for seamless project execution"
                     }
                 ]
             },
@@ -93,16 +78,16 @@ export const menuList = [
                 menus: [
                     {
                         id: 7,
-                        name: "Concept Development",
+                        name: "Civil Designs",
                         path: "/service-single",
-                        desc: "Develop a design concept"
+                        desc: "Innovative civil design concepts for structural integrity"
                     },
-                    {
-                        id: 8,
-                        name: "Revamps & Remodels",
-                        path: "/service-single",
-                        desc: "Renovation and remodeling services that breathe new life"
-                    }
+                    // {
+                    //     id: 8,
+                    //     name: "Revamps & Remodels",
+                    //     path: "/service-single",
+                    //     desc: "Renovation and remodeling services that breathe new life"
+                    // }
                 ]
             },
             {
@@ -112,79 +97,79 @@ export const menuList = [
                         id: 9,
                         name: "Embark on a Design Journey with Us",
                         path: "#",
-                        desc: "Let’s Talk",
+                        desc: "Contact Us",
                         img: menu_image_1
                     }
                 ]
             }
         ]
     },
+    // {
+    //     id: 5,
+    //     name: "Pages",
+    //     path: "#",
+    //     isMegaMenu: false,
+    //     isDropdown: [
+    //         {
+    //             id: 1,
+    //             name: "About Us",
+    //             path: "/about-us"
+    //         },
+    //         {
+    //             id: 2,
+    //             name: "Services",
+    //             path: "/services"
+    //         },
+    //         // {
+    //         //     id: 3,
+    //         //     name: "Service Single",
+    //         //     path: "/service-single"
+    //         // },
+    //         {
+    //             id: 4,
+    //             name: "Project Single",
+    //             path: "/project-single"
+    //         },
+    //         {
+    //             id: 5,
+    //             name: "Product Single",
+    //             path: "/product-single"
+    //         },
+    //         {
+    //             id: 6,
+    //             name: "Product Archive",
+    //             path: "/product-archive"
+    //         },
+    //         {
+    //             id: 7,
+    //             name: "Career",
+    //             path: "/career"
+    //         },
+    //         {
+    //             id: 8,
+    //             name: "Job Details",
+    //             path: "/job-details"
+    //         },
+    //         {
+    //             id: 9,
+    //             name: "Team",
+    //             path: "/team"
+    //         },
+    //         {
+    //             id: 10,
+    //             name: "Team Single",
+    //             path: "/team-single"
+    //         },
+    //         {
+    //             id: 11,
+    //             name: "Contact 2",
+    //             path: "/contact-2"
+    //         },
+    //     ]
+    // },
     {
-        id: 4,
-        name: "Pages",
-        path: "#",
-        isMegaMenu: false,
-        isDropdown: [
-            {
-                id: 1,
-                name: "About Us",
-                path: "/about-us"
-            },
-            {
-                id: 2,
-                name: "Services",
-                path: "/services"
-            },
-            // {
-            //     id: 3,
-            //     name: "Service Single",
-            //     path: "/service-single"
-            // },
-            {
-                id: 4,
-                name: "Project Single",
-                path: "/project-single"
-            },
-            {
-                id: 5,
-                name: "Product Single",
-                path: "/product-single"
-            },
-            {
-                id: 6,
-                name: "Product Archive",
-                path: "/product-archive"
-            },
-            {
-                id: 7,
-                name: "Career",
-                path: "/career"
-            },
-            {
-                id: 8,
-                name: "Job Details",
-                path: "/job-details"
-            },
-            {
-                id: 9,
-                name: "Team",
-                path: "/team"
-            },
-            {
-                id: 10,
-                name: "Team Single",
-                path: "/team-single"
-            },
-            {
-                id: 11,
-                name: "Contact 2",
-                path: "/contact-2"
-            },
-        ]
-    },
-    {
-        id: 5,
-        name: "Blog",
+        id: 6,
+        name: "News & Blogs",
         path: "#",
         isMegaMenu: false,
         isDropdown: [
@@ -210,11 +195,11 @@ export const menuList = [
             },
         ]
     },
-    {
-        id: 6,
-        name: "Contact",
-        path: "/contact",
-        isMegaMenu: false,
-        isDropdown: false
-    },
+    // {
+    //     id: 6,
+    //     name: "Contact Us",
+    //     path: "/contact",
+    //     isMegaMenu: false,
+    //     isDropdown: false
+    // },
 ]
