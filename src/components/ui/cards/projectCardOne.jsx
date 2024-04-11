@@ -5,7 +5,7 @@ import RightArrow from '@/assets/icons/rightArrow'
 import ButtonFill from '../buttons/buttonFill'
 import Link from 'next/link'
 
-const ProjectCardOne = ({ order, position, project_year, project_desc, project_img, location, project_type, project_name, id, imageVariants, cardVariants }) => {
+const ProjectCardOne = ({ order, position, project_year, project_desc, project_img, location, project_type, project_name, link, imageVariants, cardVariants }) => {
     return (
         <div className='xl:max-w-[95%] w-full mx-auto relative overflow-hidden '>
             <div className='container'>
