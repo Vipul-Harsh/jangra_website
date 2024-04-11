@@ -36,7 +36,7 @@ const Home2 = () => {
           <SectionTitle
             sectionName={"Our Team"}
             sectionTitle={"Designers of Excellence"}
-            sectionDesc={"Crafting Inspirational Spaces with Precision and Passion"}
+            sectionDesc={"Meet the Creative Minds Behind Jangra Interiors"}
             button_text={"Meet Our Team"}
             link={"/team"}
           />

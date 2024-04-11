@@ -27,7 +27,7 @@ const bannerData = [
     },
     {
         id: 2,
-        title: "Crafted Design Elegance",
+        title: "Designing Moments, Crafting Memories",
         heading: "<span class='text-primary-foreground'> Elegance </span> <span class='outline-text'> Redefined </span>",
         banner_img: hero_2,
     },
@@ -42,7 +42,7 @@ const bannerBottomContent = [
     {
         id: 1,
         banner_img: hero_5,
-        title: "Transformative Spaces"
+        title: "Innovative Interiors"
     },
     {
         id: 2,
@@ -62,7 +62,7 @@ const BannerTwo = () => {
         clickable: true,
         el: ".hero-pagination",
         renderBullet: function (index, className) {
-            return `<span class='${className} text-white translate-y-16 opacity-0 absolute h-0 leading-[90%] [font-size:_clamp(50px,10vw,150px)] font-extrabold lg:text-right'>${bannerData[index].title}</span>`;
+            return `<span class='${className} text-white translate-y-16 opacity-0 absolute h-0 leading-[90%] [font-size:_clamp(50px,9vw,140px)] font-extrabold lg:text-right'>${bannerData[index].title}</span>`;
         },
     };
     return (

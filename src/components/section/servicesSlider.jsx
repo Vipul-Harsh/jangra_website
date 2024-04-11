@@ -21,7 +21,7 @@ const ServicesSlider = ({ text_muted, bg_muted }) => {
             <div className='container-fluid'>
                 <SectionTitle
                     sectionName={"Services"}
-                    sectionTitle={"Discover Our Design Services"}
+                    sectionTitle={"What We Offer: Cutting Edge Services"}
                     sectionDesc={"Crafting Spaces Tailored to Your Unique Style and Needs"}
                     link={"/services"}
                     button_text={"View All Services"}

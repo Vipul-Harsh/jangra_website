@@ -17,8 +17,8 @@ import TeamCardOne from '@/components/ui/cards/teamCardOne'
 import { cardSlideAnimation } from '@/lib/utils'
 
 export const metadata = {
-  title: "Architronix -- Home-2",
-  description: "Architronix is a next js and tailwind css website",
+  title: "Jangra Interiors",
+  description: "Jangra Interiors Providing Top nocth Services",
 };
 const Home2 = () => {
   return (
@@ -34,12 +34,12 @@ const Home2 = () => {
           <SectionTitle
             sectionName={"Our Team"}
             sectionTitle={"Designers of Excellence"}
-            sectionDesc={"Crafting Inspirational Spaces with Precision and Passion"}
+            sectionDesc={"Meet the Creative Minds Behind Jangra Interiors"}
             button_text={"Meet Our Team"}
             link={"/team"}
           />
         </div>
-        <div className='container lg:pt-[340px] 2sm:pt-20 pt-14'>
+        <div className='container lg:pt-[340px] 2sm:'>
           <div className='grid lg:grid-cols-3 2sm:grid-cols-2 gap-7'>
             {
               teamData.slice(0, 3).map(({ id, img, name, position, social_link }) => <TeamCardOne key={id} img={img} name={name} position={position} social_link={social_link} prantCalss={"team-card"} cardVariants={cardSlideAnimation()} />)
@@ -57,7 +57,7 @@ const Home2 = () => {
         <div className='container-fluid'>
           <SectionTitle
             sectionName={"Blogs"}
-            sectionTitle={" Design Stories & Insights"}
+            sectionTitle={" Insights & Updates"}
             sectionDesc={"Unveil the Secrets to Transforming Spaces"}
           />
         </div>

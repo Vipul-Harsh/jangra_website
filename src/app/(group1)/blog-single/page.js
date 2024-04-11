@@ -14,8 +14,8 @@ import Leavecomment from '@/components/ui/leaveComment'
 import SocialMediaList from '@/components/ui/socialMediaList'
 
 export const metadata = {
-    title: "Architronix -- Blog Single",
-    description: "Architronix is a next js and tailwind css website",
+    title: "Jangra Interior",
+    description: "Jangra Interior",
 };
 
 const BlogSingle = () => {

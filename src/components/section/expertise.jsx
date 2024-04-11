@@ -3,7 +3,7 @@ import React from 'react'
 import { motion } from "framer-motion"
 import Image from 'next/image'
 import SectionTitle from '../ui/sectionTitle'
-import expertise_bg from "@/assets/images/expertise.jpg"
+import expertise_bg from "@/assets/images/newimages/about2.jpg"
 import Title from '../ui/title'
 import { cardSlideAnimation } from '@/lib/utils'
 import SectionSidebarImg from '../ui/sectionSidebarImg'
@@ -36,14 +36,14 @@ const Expertise = () => {
     return (
         <section className='mt-20'>
             <div className='container-fluid '>
-                <SectionTitle sectionName={"Expertise"} sectionTitle={"Mastering the Art of Design"} sectionDesc={"Where Creativity Meets Proficiency"} />
+                <SectionTitle sectionName={"Expertise"} sectionTitle={"Design Excellence"} sectionDesc={"Transforming Spaces with Skill and Creativity"} />
                 <div className='lg:mt-30 2sm:mt-20 mt-14 bg-secondary'>
                     <div className='flex lg:flex-row flex-col items-center gap-15 '>
                         <div>
                             <SectionSidebarImg img={expertise_bg} section_name={"Expertise-bg"} className={"w-full h-full"} />
                         </div>
                         <div className='px-3 2xl:py-0 py-7 max-w-[609px] w-full'>
-                            <Title title_text={"Expertise Progress"} className={"2xl:mb-20 mb-14"} />
+                            <Title title_text={"Design Spectrum"} className={"2xl:mb-20 mb-14"} />
                             <div className=''>
                                 {
                                     skillList.map(({ id, achive, skill_name }) => {

@@ -5,8 +5,9 @@ import project_img_4 from "@/assets/images/newimages/slide4.jpg"
 
 export const projectsData = [
     {
-        id: 1,
+        id: "1",
         project_name: "Pixel House",
+        slug: "pixel-house",
         project_img: project_img_2,
         project_desc: "At the heart of the e+ project, made of natural anodised aluminium, glazing, sandstone and granite, the lobby  ...see more",
         client: "Sogeprom",
@@ -17,8 +18,9 @@ export const projectsData = [
         location:"Sao Paulo, Brazil"
     },
     {
-        id: 2,
+        id: "2",
         project_name: "La Fuente",
+        slug: "la-fuente",
         project_img: project_img_3,
         project_desc: "At the heart of the e+ project, made of natural anodised aluminium, glazing, sandstone and granite, the lobby  ...see more",
         client: "Sogeprom",
@@ -29,8 +31,9 @@ export const projectsData = [
         location:"US"
     },
     {
-        id: 3,
+        id: "3",
         project_name: "Bovio House",
+        slug: "bovio-house",
         project_img: project_img_1,
         project_desc: "At the heart of the e+ project, made of natural anodised aluminium, glazing, sandstone and granite, the lobby  ...see more",
         client: "Sogeprom",
@@ -41,8 +44,9 @@ export const projectsData = [
         location:"UK"
     },
     {
-        id: 4,
+        id: "4",
         project_name: "MFA Lakeside",
+        slug: "mfa-lakeside",
         project_img: project_img_4,
         project_desc: "At the heart of the e+ project, made of natural anodised aluminium, glazing, sandstone and granite, the lobby  ...see more",
         client: "Sogeprom",

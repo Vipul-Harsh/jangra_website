@@ -12,12 +12,12 @@ const ProjectArchive = () => {
     return (
         <section>
             <div className='container-fluid '>
-                <SectionTitle sectionName={"Archive"} sectionTitle={"A Journey Through Our Past Projects"} sectionDesc={"Exploring the Tapestry of Our Design Legacy"} />
+                <SectionTitle sectionName={"Projects"} sectionTitle={"Our Project Showcase"} sectionDesc={"Dive into Our Legacy of Creative Endeavors"} />
             </div>
             <div className='lg:pt-30 2sm:pt-20 pt-14'>
                 <div className=''>
                     {
-                        projectsData.map(({ id, project_desc, project_img, project_name, project_year, project_type, location, link }) => {
+                        projectsData.map(({ id,slug,link, project_desc, project_img, project_name, project_year, project_type, location }) => {
                             if (id % 2 === 0) {
                                 return (
                                     <ProjectCardOne
@@ -27,6 +27,7 @@ const ProjectArchive = () => {
                                         project_type={project_type}
                                         location={location}
                                         project_year={project_year}
+                                        id={slug}
                                         link={link}
                                         project_name={project_name}
                                         order={'lg:order-1 order-0'}
@@ -45,6 +46,7 @@ const ProjectArchive = () => {
                                         project_type={project_type}
                                         location={location}
                                         project_year={project_year}
+                                        id={slug}
                                         link={link}
                                         project_name={project_name}
                                         position={"lg:absolute lg:left-0 lg:top-1/2 lg:-translate-y-1/2"}

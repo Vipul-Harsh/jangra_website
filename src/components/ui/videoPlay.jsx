@@ -18,7 +18,7 @@ const VideoPlay = ({ img }) => {
                 whileInView="onscreen"
                 variants={cardSlideAnimation()}
                 viewport={{ once: true, amount: 0.2 }}
-                className='relative max-h-[400px] mt-10 lg:mt-0'
+                className='relative max-h-[100%] mt-10 lg:mt-0'
             >
                 <Image src={img} loading='lazy'      alt='video' width={"auto"} height={"auto"} className='w-full max-w-[698px] mx-auto h-full' />
                 <ModalVideo

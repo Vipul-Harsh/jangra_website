@@ -8,7 +8,7 @@ import { addressList } from '@/lib/fackData/addressList'
 import InputFiled from '@/components/ui/inputFiled'
 import TextAreaFiled from '@/components/ui/textAreaFiled'
 import RightArrow from '@/assets/icons/rightArrow'
-import from_img from "@/assets/images/contact-image.jpg"
+import from_img from "@/assets/images/newimages/contact1.jpg"
 import Feedback from '@/components/section/feedback'
 import ButtonOutline from '@/components/ui/buttons/buttonOutline'
 
@@ -21,8 +21,8 @@ const LeafletMap = dynamic(
 )
 
 export const metadata = {
-    title: "Architronix -- Contact",
-    description: "Architronix is a next js and tailwind css website",
+    title: "Jangra Interior",
+    description: "Jangra Interior",
 };
 
 const Contact = () => {
@@ -32,7 +32,7 @@ const Contact = () => {
             {/* ------ address and map start */}
             <section>
                 <div className='container-fluid '>
-                    <SectionTitle sectionName={"Contact"} sectionTitle={"Let's Design Together"} sectionDesc={"Reach out to bring your dream spaces to life."} />
+                    <SectionTitle sectionName={"Contact"} sectionTitle={"Design Your Dream"} sectionDesc={"Reach out to bring your dream spaces to life."} />
                 </div>
                 <div className='container lg:pt-30 2sm:pt-20 pt-14'>
                     <div className='grid lg:grid-cols-[32%_auto]'>
@@ -53,20 +53,20 @@ const Contact = () => {
             {/* ------ contact form start */}
             <section>
                 <div className='container-fluid '>
-                    <SectionTitle sectionName={"Inquiry"} sectionTitle={"Have a Project in your mind?"} sectionDesc={"Write us directly"} />
+                    <SectionTitle sectionName={"Inquiry"} sectionTitle={"Want to Make Your Dream a Reality?"} sectionDesc={"Write us directly"} />
                 </div>
                 <div className='container lg:pt-30 2sm:pt-20 pt-14'>
                     <div className='grid lg:grid-cols-2 gap-5'>
-                        <Image src={from_img} loading='lazy'      alt='contact-form' className='w-full h-auto' />
+                        <Image src={from_img} loading='lazy'      alt='contact-form' className='w-full   h-4/6' />
                         <form>
                             <InputFiled placeholderc={"Your Name"} type={"text"} className={"mb-[13px]"} />
                             <div className='flex sm:flex-row flex-col gap-x-5'>
                                 <InputFiled placeholderc={"Phone Number"} type={"number"} className={"mb-[13px]"} />
                                 <InputFiled placeholderc={"Your Email"} type={"email"} className={"mb-[13px]"} />
                             </div>
-                            <TextAreaFiled placeholder={'Type your massage'} className={"min-h-[223px] mb-[13px]"} />
+                            <TextAreaFiled placeholder={'Type your message'} className={"min-h-[223px] mb-[13px]"} />
                             <div className='flex justify-end'>
-                                <ButtonOutline>Send massage <RightArrow height={"22"} width={"35"} /></ButtonOutline>
+                                <ButtonOutline>Send message <RightArrow height={"22"} width={"35"} /></ButtonOutline>
                             </div>
                         </form>
                     </div>

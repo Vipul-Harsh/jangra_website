@@ -16,7 +16,7 @@ export const menuList = [
     },
     {
         id: 3,
-        name: "Projects",
+        name: "Portfolio",
         path: '/project-archive',
         isMegaMenu: false,
         isDropdown: false
@@ -170,30 +170,9 @@ export const menuList = [
     {
         id: 6,
         name: "News & Blogs",
-        path: "#",
+        path: "/blog-archive",
         isMegaMenu: false,
-        isDropdown: [
-            {
-                id: 1,
-                name: "Blog Archive",
-                path: "/blog-archive"
-            },
-            {
-                id: 2,
-                name: "Blog Single",
-                path: "/blog-single"
-            },
-            {
-                id: 3,
-                name: "Blog Left Sidebar",
-                path: "/blog-left-sidebar"
-            },
-            {
-                id: 4,
-                name: "Blog Right Sidebar",
-                path: "/blog-right-sidebar"
-            },
-        ]
+        isDropdown: false,
     },
     // {
     //     id: 6,
