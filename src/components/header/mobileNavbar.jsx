@@ -1,7 +1,7 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import Link from "next/link";
-import Logo from "@/assets/icons/logo";
+
 import MenuIcon from "@/assets/icons/menuIcon";
 import { IoMdClose } from "react-icons/io";
 import { menuList } from "@/lib/fackData/menuList";
