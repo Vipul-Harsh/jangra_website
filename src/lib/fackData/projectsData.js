@@ -1,7 +1,7 @@
-import project_img_1 from "@/assets/images/newimages/slide1.jpg"
-import project_img_2 from "@/assets/images/newimages/slide2.jpg"
-import project_img_3 from "@/assets/images/newimages/slide3.jpg"
-import project_img_4 from "@/assets/images/newimages/slide4.jpg"
+import project_img_1 from "@/assets/images/newimages/slide1.jpg";
+import project_img_2 from "@/assets/images/newimages/slide2.jpg";
+import project_img_3 from "@/assets/images/newimages/slide3.jpg";
+import project_img_4 from "@/assets/images/newimages/slide4.jpg";
 
 export const projectsData = [
     {
@@ -14,8 +14,8 @@ export const projectsData = [
         area: "14,891 m²",
         project_year: "2020",
         project_type: "Interior design",
-        link: "/project-single",
-        location:"Sao Paulo, Brazil"
+        link: "/project-single/pixel-house", // Updated link
+        location: "Sao Paulo, Brazil"
     },
     {
         id: "2",
@@ -27,8 +27,8 @@ export const projectsData = [
         area: "14,891 m²",
         project_year: "2022",
         project_type: "Interior design",
-        link: "/project-single",
-        location:"US"
+        link: "/project-single/la-fuente", // Updated link
+        location: "US"
     },
     {
         id: "3",
@@ -40,8 +40,8 @@ export const projectsData = [
         area: "14,891 m²",
         project_year: "2021",
         project_type: "Interior design",
-        link: "/project-single",
-        location:"UK"
+        link: "/project-single/bovio-house", // Updated link
+        location: "UK"
     },
     {
         id: "4",
@@ -53,7 +53,7 @@ export const projectsData = [
         area: "14,891 m²",
         project_year: "2022",
         project_type: "Private House",
-        link: "/project-single",
-        location:"US"
+        link: "/project-single/mfa-lakeside", // Updated link
+        location: "US"
     },
-]
+];
