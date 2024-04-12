@@ -12,7 +12,8 @@ import Offcanvas from "./offCanvas";
 import Cart from "./cart";
 import { useSelector } from "react-redux";
 import useOverflowHidden from "@/hooks/useOverflowHidden";
-
+import Logo from "../../assets/images/newimages/jangralogo (1).png"
+import Image from "next/image";
 const MobileNavbar = () => {
   const { products } = useSelector((state) => state.addToCart);
   const [isMenuActive, setIsMenuActive] = useState(false);
@@ -39,7 +40,7 @@ const MobileNavbar = () => {
         <div className="container-fluid ">
           <div className="flex items-center justify-between py-4">
             <Link href={"/"} className="text-primary-foreground">
-              <Logo height={"31"} width={"219"} />
+             <Image src={Logo} width={300} height={300} alt="logo" />
             </Link>
             <div>
               <nav
