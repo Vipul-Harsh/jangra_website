@@ -18,7 +18,7 @@ import { cardSlideAnimation } from "@/lib/utils";
 import HeaderTwo from "@/components/header/headerTwo";
 import Footer from "@/components/footer";
 export const metadata = {
-  title: "Jangra Interior ",
+  title: "Jangra Build Wave ",
   description:
     "Transforming interiors with innovative design and attention to detail",
 };
@@ -31,6 +31,7 @@ const Home2 = () => {
       <Counter />
       <Gallery />
       <ServicesSlider />
+      <VideoPortfolio />
       {/* --------- start team section */}
       <section className="pt-20">
         <div className="container-fluid ">
@@ -61,10 +62,10 @@ const Home2 = () => {
         </div>
       </section>
       {/* --------- start team section */}
-      <VideoPortfolio />
-      <ProjectsSlider />
+      
+      {/* <ProjectsSlider /> */}
       <Testimonial />
-      <ShopSlider data={productData.slice(0, 5)} />
+      {/* <ShopSlider data={productData.slice(0, 5)} /> */}
       {/* -------- blog slider start */}
       <section className="pt-20">
         <div className="container-fluid">

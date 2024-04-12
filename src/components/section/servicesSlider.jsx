@@ -23,8 +23,8 @@ const ServicesSlider = ({ text_muted, bg_muted }) => {
                     sectionName={"Services"}
                     sectionTitle={"What We Offer: Cutting Edge Services"}
                     sectionDesc={"Crafting Spaces Tailored to Your Unique Style and Needs"}
-                    link={"/services"}
-                    button_text={"View All Services"}
+                    link={""}
+                    button_text={""}
                     text_muted={text_muted}
                     bg_muted={bg_muted}
                 />

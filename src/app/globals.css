@@ -339,3 +339,6 @@ body {
   display: flex;
   
 }
+.height-auto{
+  height: 100px !important;
+}

@@ -14,11 +14,12 @@ import { projectsData } from "@/lib/fackData/projectsData";
 
 const page = ({ params }) => {
   const project = projectsData.find((project) => project.slug === params.slug);
+  const {detailed_desc, detailed_desc2, detailed_desc3 } = project;
   return (
     <>
       <section className="blog-single">
         <div>
-          <Image src={project.project_img} loading="lazy" alt="img" />
+          <Image src={project.img1} loading="lazy" alt="img" />
           <div className="container 2sm:mt-[156px] sm:mt-30 mt-20">
             <div className="grid lg:grid-cols-[65%_auto] gap-[38px]">
               <div className="relative after:absolute sm:after:-left-12.5 after:-left-5 after:top-1/2 after:-translate-y-1/2 after:w-[1px] sm:after:h-[130%] after:h-[120%] after:bg-primary sm:ml-12.5 ml-5">
@@ -111,11 +112,11 @@ const page = ({ params }) => {
               />
             </div>
           </div>
-          <Paragraph />
+          <Paragraph detailedDesc={detailed_desc} />
           <ProjectSingleSliderOne />
-          <Paragraph />
+          <Paragraph  detailedDesc={detailed_desc2}/>
           <ProjectSingleSliderTwo />
-          <Paragraph />
+          <Paragraph detailedDesc={detailed_desc3}  />
         </div>
       </section>
       <TeamTwo />

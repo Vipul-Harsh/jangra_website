@@ -3,7 +3,7 @@ import React, { useEffect, useRef, useState } from 'react'
 import Link from 'next/link'
 import DropDownMenu from './dropDownMenu'
 import MegaMenu from './megaMenu'
-import Logo from '@/assets/icons/logo';
+import Logo from '../../assets/images/newimages/jangralogo (1).png';
 import Search from '@/assets/icons/search';
 import { menuList } from '@/lib/fackData/navBar';
 import Offcanvas from './offCanvas'
@@ -14,7 +14,7 @@ import { useSelector } from 'react-redux'
 import { usePathname } from 'next/navigation'
 import useActiveNavLink from '@/hooks/useActiveNavLink'
 import useStickyHeader from '@/hooks/useStickyHeader'
-
+import Image from 'next/image'
 const BottomNavbar = ({ linkColor }) => {
     const { products } = useSelector((state) => state.addToCart)
     const [offcanvaseActive, setOffcanvaseActive] = useState(false)
@@ -30,7 +30,7 @@ const BottomNavbar = ({ linkColor }) => {
             <div className='bottom-navbar flex justify-between items-center'>
                 <div>
                     <Link href="/" className={cn(`logo text-primary-foreground ${linkColor}`)}>
-                        <Logo height={"31"} width={"219"} />
+                       <Image src={Logo} alt="logo" width={300} height={300} />
                     </Link>
                 </div>
                 <nav>

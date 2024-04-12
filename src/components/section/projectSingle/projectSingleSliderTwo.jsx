@@ -27,30 +27,19 @@ const projectImg = [
         id: 3,
         img: project_img_3
     },
-    {
-        id: 4,
-        img: project_img_4
-    },
-    {
-        id: 5,
-        img: project_img_5
-    },
-    {
-        id: 6,
-        img: project_img_6
-    },
-    {
-        id: 7,
-        img: project_img_1
-    },
-    {
-        id: 8,
-        img: project_img_2
-    },
-    {
-        id: 9,
-        img: project_img_3
-    },
+    // {
+    //     id: 4,
+    //     img: project_img_4
+    // },
+    // {
+    //     id: 5,
+    //     img: project_img_5
+    // },
+    // {
+    //     id: 6,
+    //     img: project_img_6
+    // },
+   
 
 ]
 const ProjectSingleSliderTwo = () => {

@@ -9,13 +9,16 @@ export const projectsData = [
         id: 1,
         project_name: "Pixel House",
         project_img: project_img_2,
-        project_desc: "A modern residential project located in Sao Paulo, Brazil, integrating natural elements with contemporary design.",
+        project_desc: "Pixel House is a modern residential project located in Sao Paulo, Brazil. It seamlessly integrates natural elements with contemporary design to create a unique living space.",
+        detailed_desc: "Pixel House stands as a testament to innovative architectural design, seamlessly blending natural elements with contemporary aesthetics. The structural system is composed of pillars and beams with the same section, connected by a metallic cube that works as a structural node. When combined, they can result in different configurations of layouts and attend several programs within a limit of up to three floors, either in a flat or sloped terrain.",
+        detailed_desc2: "The external and internal finishings, such as floors, walls, and linings, are also conceived as part of a docking system. In this way, you can assembly and disassemble the residence in the lot without generating waste or consuming natural resources such as water – abundantly wasted in conventional construction. From design to conclusion can take only 6 months.",
+        detailed_desc3: "Completed in 2020, Pixel House represents the pinnacle of modern residential design. Its innovative approach to architecture and focus on sustainability make it a standout project in Sao Paulo. Whether relaxing in the tranquil garden or entertaining guests in the spacious living room, Pixel House offers a luxurious lifestyle experience unlike any other.",
         client: "Sogeprom",
         area: "14,891 m²",
         project_year: "2020",
         project_type: "Residential",
         link: "/project-single/pixel-house",
-        location: "Sao Paulo, Brazil"
+        location: "Sao Paulo, Brazil",
     },
     {
         id: 2,

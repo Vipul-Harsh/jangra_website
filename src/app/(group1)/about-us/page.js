@@ -7,7 +7,7 @@ import { teamData } from '@/lib/fackData/teamData'
 import { cardSlideAnimation } from '@/lib/utils'
 
 export const metadata = {
-  title: "Jangra Interiors",
+  title: "Jangra Build Wave",
   description: "Jangra Interior ",
 };
 const AboutUs = () => {

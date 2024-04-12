@@ -21,7 +21,7 @@ const LeafletMap = dynamic(
 )
 
 export const metadata = {
-    title: "Jangra Interior",
+    title: "Jangra Build Wave",
     description: "Jangra Interior",
 };
 

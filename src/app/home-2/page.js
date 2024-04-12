@@ -17,7 +17,7 @@ import TeamCardOne from '@/components/ui/cards/teamCardOne'
 import { cardSlideAnimation } from '@/lib/utils'
 
 export const metadata = {
-  title: "Jangra Interiors",
+  title: "Jangra Build Wave",
   description: "Jangra Interiors Providing Top nocth Services",
 };
 const Home2 = () => {
@@ -28,6 +28,7 @@ const Home2 = () => {
       <Counter />
       <Gallery />
       <ServicesSlider />
+      <VideoPortfolio />
       {/* --------- start team section */}
       <section className='pt-20'>
         <div className='container-fluid '>
@@ -48,10 +49,10 @@ const Home2 = () => {
         </div>
       </section>
       {/* --------- start team section */}
-      <VideoPortfolio />
-      <ProjectsSlider />
+      
+      {/* <ProjectsSlider /> */}
       <Testimonial />
-      <ShopSlider data={productData.slice(0, 5)} />
+      {/* <ShopSlider data={productData.slice(0, 5)} /> */}
       {/* -------- blog slider start */}
       <section className='pt-20'>
         <div className='container-fluid'>

@@ -33,19 +33,22 @@ export const menuList = [
                     {
                         id: 1,
                         name: "Residential Design",
-                        path: "/service-single",
+                        slug: "residential-interior-design",
+                        path: "/service-single/residential-interior-design",
                         desc: "Comprehensive residential design solutions tailored to your lifestyle"
                     },
                     {
                         id: 2,
                         name: "Commercial Design",
-                        path: "/service-single",
+                        slug: "commercial-interior-design",
+                        path: "/service-single/commercial-interior-design",
                         desc: "Innovative commercial design optimizing space and aesthetics"
                     },
                     {
                         id: 3,
                         name: "Industrial Design",
-                        path: "/service-single",
+                        slug:"industrial-interior-design",
+                        path: "/service-single/industrial-interior-design",
                         desc: "Strategic industrial design maximizing functionality and efficiency"
                     }
                 ]
@@ -56,19 +59,22 @@ export const menuList = [
                     {
                         id: 4,
                         name: "Renovations & Remodelling",
-                        path: "/service-single",
+                        slug: "renovations-remodeling",
+                        path: "/service-single/renovations-remodeling",
                         desc: "Expert renovation and remodelling services enhancing your space"
                     },
                     {
                         id: 5,
                         name: "Furniture",
-                        path: "/service-single",
+                        slug: "custom-furniture-design",
+                        path: "/service-single/custom-furniture-design",
                         desc: "Bespoke furniture design ensuring harmony and elegance"
                     },
                     {
                         id: 6,
                         name: "Trunkey Project",
-                        path: "/service-single",
+                        slug: "turnkey-project-solutions",
+                        path: "/service-single/turnkey-project-solutions",
                         desc: "Comprehensive turnkey solutions for seamless project execution"
                     }
                 ]
@@ -79,7 +85,8 @@ export const menuList = [
                     {
                         id: 7,
                         name: "Civil Designs",
-                        path: "/service-single",
+                        slug: "civil-design-architecture",
+                        path: "/service-single/civil-design-architecture",
                         desc: "Innovative civil design concepts for structural integrity"
                     },
                     // {

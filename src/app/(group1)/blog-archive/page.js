@@ -5,7 +5,7 @@ import SectionTitle from "@/components/ui/sectionTitle"
 import { blogData } from "@/lib/fackData/blogData"
 
 export const metadata = {
-    title: "Jangra Interior",
+    title: "Jangra Build Wave",
     description: "Jangra Interior",
   };
 const BlogArchive = () => {
@@ -18,7 +18,7 @@ const BlogArchive = () => {
                 <div className="container lg:py-30 2sm:py-20 py-14">
                     <div className="grid lg:grid-cols-3 2sm:grid-cols-2 gap-x-5 gap-y-[75px]">
                         {
-                            blogData.map(({ id, date, tag, thumb, title }) => <div key={id}> <BlogCard date={date} tag={tag} thumb={thumb} title={title} /> </div>)
+                            blogData.map(({ id, date, tag, thumb, title,slug }) => <div key={id}> <BlogCard date={date} tag={tag} thumb={thumb} title={title} slug={slug} /> </div>)
                         }
                     </div>
                 </div>
